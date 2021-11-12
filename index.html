@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Nutri</title>
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="section">
+      <div>
+        <label>Renda Mensal :</label><br>
+        <input type="number"  id="renda" class="input-control" placeholder="Informe sua renda mensal !!" required></input>
+      </div>
+
+      <div>
+        <label>Valor do bem :</label><br>
+        <input type="number" id="bem"  class="input-control" placeholder="Digite o valor do bem !!" required></input>
+      </div>
+
+      <div>
+        <label>Valor de entrada :</label><br>
+        <input type="number" id="entrada" class="input-control" placeholder="Digite o valor de entrada !!" required></input>
+      </div>
+
+      <div>
+        <label>Taxa de juros :</label><br>
+        <input type="number" id="i" class="input-control" placeholder="Digite a taxa de juros !!" required></input>
+      </div>
+
+      <div>
+        <label>Quantidade de prestações :</label><br>
+        <input type="number" id="n" class="input-control" placeholder="Digite a quantidade de prestações !!" required></input>
+      </div>
+      <button id="calcular">Calcular</button>
+
+      <div class="result" id="resultado"></div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
